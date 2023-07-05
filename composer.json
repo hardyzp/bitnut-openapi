@@ -1,0 +1,25 @@
+{
+    "name": "bitnut/api",
+    "type": "library",
+    "description": "bitnut API Like the official document interface, Support for arbitrary extension.",
+    "license": "MIT",
+    "keywords": ["bitnut"],
+    "authors": [
+        {
+            "name": "zpcode",
+            "email": "xljknmzp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bitnut\\Cex\\": "./src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "*",
+        "workerman/workerman": "*",
+        "workerman/globaldata": "*",
+        "ext-json": "*"
+    }
+}
